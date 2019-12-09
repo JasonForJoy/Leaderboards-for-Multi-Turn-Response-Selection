@@ -92,7 +92,7 @@ In addition to the studies mentioned above, there are stil a lot of great studie
 - **Improving Response Selection in Multi-turn Dialogue Systems by Incorporating Domain Knowledge**. *Debanjan Chaudhuri, Agustinus Kristiadi, Jens Lehmann, Asja Fischer*. CONLL 2018.
 - **Enhance word representation for out-of-vocabulary on Ubuntu dialogue corpus**. *Jianxiong Dong, Jim Huang*. ArXiv.
 - **Multi-view Response Selection for Human-Computer Conversation**. *Xiangyang Zhou, Daxiang Dong, Hua Wu, Shiqi Zhao, Dianhai Yu, Hao Tian, Xuan Liu, Rui Yan*. EMNLP 2016.
-- **Learning to Respond with Deep Neural Networks for Retrieval-Based Human-Computer Conversation System**. *Rui Yan, Yiping Song, Hua Wu*. Proc.
+- **Learning to Respond with Deep Neural Networks for Retrieval-Based Human-Computer Conversation System**. *Rui Yan, Yiping Song, Hua Wu*. SIGIR 2016.
 
 
 
