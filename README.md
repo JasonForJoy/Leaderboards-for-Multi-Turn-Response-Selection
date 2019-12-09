@@ -31,8 +31,7 @@ Multi-turn response selection in retrieval-based chatbots is a task which aims t
 ### Ubuntu Dialogue Corpus V1
 
 | Model                   |  R_2@1  |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
-| ----------------------- | ------- | -------- | -------- | -------- | ------- | ------ |
-|                                                                                      |
+| ----------------------- | ------- | -------- | -------- | -------- | ---------------- |
 | IOI (Tao et al., 2019)  |  0.947  |  0.796   |  0.894   |  0.974   | [One Time of Interaction May Not Be Enough: Go Deep with an Interaction-over-Interaction Network for Response Selection in Dialogues](https://github.com/chongyangtao/IOI) |
 | IMN (Gu et al., 2019)   |  0.946  |  0.794   |  0.889   |  0.974   | [Interactive matching network for multi-turn response selection in retrieval-based chatbots](https://github.com/JasonForJoy/IMN) |
 | MRFN (Tao et al., 2019) |  0.945  |  0.786   |  0.886   |  0.976   | [Multi-Representation Fusion Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/chongyangtao/MRFN) |
