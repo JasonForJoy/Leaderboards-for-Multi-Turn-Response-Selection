@@ -1,13 +1,13 @@
 # Multi-Turn Response Selection in Retrieval-Based Chatbots
 
-Multi-turn response selection in retrieval-based chatbots is a task which aims to select the best-matched response from a set of candidates, given the context of a conversation. This task is attracting more and more attention in academia and industry. However, no one has maintain a leaderboard and a collection of popular papers and datasets yet. The main objective of this repository is to provide the reader with a quick overview of benchmark datasets and the state-of-the-art studies on this task, which serves as a stepping stone for further research. 
+Multi-turn response selection in retrieval-based chatbots is a task which aims to select the best-matched response from a set of candidates, given the context of a conversation. This task is attracting more and more attention in academia and industry. However, no one has maintained a leaderboard and a collection of popular papers and datasets yet. The main objective of this repository is to provide the reader with a quick overview of benchmark datasets and the state-of-the-art studies on this task, which serves as a stepping stone for further research. 
 
 
 ## Datasets
 
 ### Ubuntu Dialogue Corpus V1
 
-- [Lowe et al. (2015)](https://www.aclweb.org/anthology/W15-4640.pdf) released the original version. [Download](https://github.com/npow/ubottu) <br>
+- [Lowe et al. (2015)](https://www.aclweb.org/anthology/W15-4640.pdf) released the original version. [[Download]](https://github.com/npow/ubottu) <br>
 - [Xu et al. (2016)](https://arxiv.org/pdf/1605.05110.pdf) released a version in which numbers, paths and URLs were replaced by placeholders. [Download](https://www.dropbox.com/s/2fdn26rj6h9bpvl/ubuntu_data.zip) <br>
 - [Gu et al. (2019)](https://dl.acm.org/citation.cfm?id=3358140) released a version based on Xu et al. (2016) in which contexts and responses are assigned ids to track them. [Download](https://drive.google.com/file/d/1-rNv34hLoZr300JF3v7nuLswM7GRqeNc/view)
 
