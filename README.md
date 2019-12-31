@@ -34,7 +34,7 @@ Multi-turn response selection in retrieval-based chatbots is a task which aims t
 
 | Model                    |  R_2@1  |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
 | ------------------------ | ------- | -------- | -------- | -------- | ---------------- |
-| MSN (Yuan et al, 2019)   | -       |  0.800   |  0.899   |  0.978   | Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots |
+| MSN (Yuan et al, 2019)   | -       |  0.800   |  0.899   |  0.978   | [Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots](https://github.com/chunyuanY/Dialogue) |
 | IOI (Tao et al., 2019)   |  0.947  |  0.796   |  0.894   |  0.974   | [One Time of Interaction May Not Be Enough: Go Deep with an Interaction-over-Interaction Network for Response Selection in Dialogues](https://github.com/chongyangtao/IOI) |
 | IMN (Gu et al., 2019)    |  0.946  |  0.794   |  0.889   |  0.974   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/JasonForJoy/IMN) |
 | U2U-IMN (Gu et al., 2019)|  0.945  |  0.790   |  0.886   |  0.973   | [Utterance-to-Utterance Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/JasonForJoy/U2U-IMN) |
@@ -57,7 +57,7 @@ Multi-turn response selection in retrieval-based chatbots is a task which aims t
 
 | Model                    |  MAP  |  MRR  |  P@1  |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
 | ------------------------ | ----- | ----- | ----- | -------- | -------- | -------- | ---------------- |
-| MSN (Yuan et al, 2019)   | 0.587 | 0.632 | 0.470 |  0.295   |  0.452   |  0.788   | Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots |
+| MSN (Yuan et al, 2019)   | 0.587 | 0.632 | 0.470 |  0.295   |  0.452   |  0.788   | [Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots](https://github.com/chunyuanY/Dialogue) |
 | IOI (Tao et al., 2019)   | 0.573 | 0.621 | 0.444 |  0.269   |  0.451   |  0.786   | [One Time of Interaction May Not Be Enough: Go Deep with an Interaction-over-Interaction Network for Response Selection in Dialogues](https://github.com/chongyangtao/IOI) |
 | MRFN (Tao et al., 2019)  | 0.571 | 0.617 | 0.448 |  0.276   |  0.435   |  0.783   | [Multi-Representation Fusion Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/chongyangtao/MRFN) |
 | IMN (Gu et al., 2019)    | 0.570 | 0.615 | 0.433 |  0.262   |  0.452   |  0.789   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/JasonForJoy/IMN) |
@@ -73,7 +73,7 @@ Multi-turn response selection in retrieval-based chatbots is a task which aims t
 | ------------------------ | -------- | -------- | -------- | ---------------- |
 | IMN (Gu et al., 2019)    |  0.621   |  0.797   |  0.964   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/JasonForJoy/IMN) |
 | U2U-IMN (Gu et al., 2019)|  0.616   |  0.806   |  0.966   | [Utterance-to-Utterance Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/JasonForJoy/U2U-IMN) |
-| MSN (Yuan et al, 2019)   |  0.606   |  0.770   |  0.937   | Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots |
+| MSN (Yuan et al, 2019)   |  0.606   |  0.770   |  0.937   | [Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots](https://github.com/chunyuanY/Dialogue) |
 | IOI (Tao et al., 2019)   |  0.563   |  0.768   |  0.950   | [One Time of Interaction May Not Be Enough: Go Deep with an Interaction-over-Interaction Network for Response Selection in Dialogues](https://github.com/chongyangtao/IOI) |
 | DUA (Zhang et al., 2018) |  0.501   |  0.700   |  0.921   | [Modeling Multi-Turn Conversation with Deep Utterance Aggregation](https://github.com/cooelf/DeepUtteranceAggregation) |
 | SMN (Wu et al., 2017)    |  0.453   |  0.654   |  0.886   | [Sequential Matching Network: A New Architecture for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/MarkWuNLP/MultiTurnResponseSelection) |
