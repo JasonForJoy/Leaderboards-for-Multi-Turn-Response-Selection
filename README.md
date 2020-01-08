@@ -49,36 +49,36 @@ Multi-turn response selection in retrieval-based chatbots is a task which aims t
 
 | Model                        |  R_2@1  |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
 | ---------------------------- | ------- | -------- | -------- | -------- | ---------------- |
-| IMN (Gu et al., 2019)        |  0.945  |  0.771   |  0.886   |  0.979   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/JasonForJoy/IMN) |
-| U2U-IMN (Gu et al., 2019)    |  0.943  |  0.762   |  0.877   |  0.975   | [Utterance-to-Utterance Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/JasonForJoy/U2U-IMN) |
-| HRDE-LTC (Yoon et al., 2018) |  0.915  |  0.652   |  0.815   |  0.966   | [Learning to Rank Question-Answer Pairs using Hierarchical Recurrent Encoder with Latent Topic Clustering](https://github.com/david-yoon/QA_HRDE_LTC) |
+| IMN (Gu et al., 2019)        |  0.945  |  0.771   |  0.886   |  0.979   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2019.](https://github.com/JasonForJoy/IMN) |
+| U2U-IMN (Gu et al., 2019)    |  0.943  |  0.762   |  0.877   |  0.975   | [Utterance-to-Utterance Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. TASLP 2019.](https://github.com/JasonForJoy/U2U-IMN) |
+| HRDE-LTC (Yoon et al., 2018) |  0.915  |  0.652   |  0.815   |  0.966   | [Learning to Rank Question-Answer Pairs using Hierarchical Recurrent Encoder with Latent Topic Clustering. NAACL 2018.](https://github.com/david-yoon/QA_HRDE_LTC) |
 
 
 ### Douban Conversation Corpus
 
 | Model                    |  MAP  |  MRR  |  P@1  |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
 | ------------------------ | ----- | ----- | ----- | -------- | -------- | -------- | ---------------- |
-| MSN (Yuan et al, 2019)   | 0.587 | 0.632 | 0.470 |  0.295   |  0.452   |  0.788   | [Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots](https://github.com/chunyuanY/Dialogue) |
-| IOI (Tao et al., 2019)   | 0.573 | 0.621 | 0.444 |  0.269   |  0.451   |  0.786   | [One Time of Interaction May Not Be Enough: Go Deep with an Interaction-over-Interaction Network for Response Selection in Dialogues](https://github.com/chongyangtao/IOI) |
-| IACMN (Wang et al., 2019)| 0.571 | 0.621 | 0.448 |  0.269   |  0.453   |  0.783   | [Multi-Turn Response Selection in Retrieval-Based Chatbots with Iterated Attentive Convolution Matching Network](https://github.com/heyuanw/IACMN) |
-| MRFN (Tao et al., 2019)  | 0.571 | 0.617 | 0.448 |  0.276   |  0.435   |  0.783   | [Multi-Representation Fusion Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/chongyangtao/MRFN) |
-| IMN (Gu et al., 2019)    | 0.570 | 0.615 | 0.433 |  0.262   |  0.452   |  0.789   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/JasonForJoy/IMN) |
-| U2U-IMN (Gu et al., 2019)| 0.564 | 0.611 | 0.429  | 0.259   |  0.430   |  0.791   | [Utterance-to-Utterance Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/JasonForJoy/U2U-IMN) |
-| DAM (Zhou et al., 2018)  | 0.550 | 0.601 | 0.427 |  0.254   |  0.410   |  0.757   | [Multi-Turn Response Selection for Chatbots with Deep Attention Matching Network](https://github.com/baidu/Dialogue/tree/master/DAM) |
-| DUA (Zhang et al., 2018) | 0.551 | 0.599 | 0.421 |  0.243   |  0.421   |  0.780   | [Modeling Multi-Turn Conversation with Deep Utterance Aggregation](https://github.com/cooelf/DeepUtteranceAggregation) |
-| SMN (Wu et al., 2017)    | 0.529 | 0.569 | 0.397 |  0.233   |  0.396   |  0.724   | [Sequential Matching Network: A New Architecture for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/MarkWuNLP/MultiTurnResponseSelection) |
+| MSN (Yuan et al, 2019)   | 0.587 | 0.632 | 0.470 |  0.295   |  0.452   |  0.788   | [Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots. EMNLP 2019.](https://github.com/chunyuanY/Dialogue) |
+| IOI (Tao et al., 2019)   | 0.573 | 0.621 | 0.444 |  0.269   |  0.451   |  0.786   | [One Time of Interaction May Not Be Enough: Go Deep with an Interaction-over-Interaction Network for Response Selection in Dialogues. ACL 2019.](https://github.com/chongyangtao/IOI) |
+| IACMN (Wang et al., 2019)| 0.571 | 0.621 | 0.448 |  0.269   |  0.453   |  0.783   | [Multi-Turn Response Selection in Retrieval-Based Chatbots with Iterated Attentive Convolution Matching Network. CIKM 2019.](https://github.com/heyuanw/IACMN) |
+| MRFN (Tao et al., 2019)  | 0.571 | 0.617 | 0.448 |  0.276   |  0.435   |  0.783   | [Multi-Representation Fusion Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. WSDM 2019.](https://github.com/chongyangtao/MRFN) |
+| IMN (Gu et al., 2019)    | 0.570 | 0.615 | 0.433 |  0.262   |  0.452   |  0.789   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2019.](https://github.com/JasonForJoy/IMN) |
+| U2U-IMN (Gu et al., 2019)| 0.564 | 0.611 | 0.429  | 0.259   |  0.430   |  0.791   | [Utterance-to-Utterance Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. TASLP 2019.](https://github.com/JasonForJoy/U2U-IMN) |
+| DAM (Zhou et al., 2018)  | 0.550 | 0.601 | 0.427 |  0.254   |  0.410   |  0.757   | [Multi-Turn Response Selection for Chatbots with Deep Attention Matching Network. ACL 2018.](https://github.com/baidu/Dialogue/tree/master/DAM) |
+| DUA (Zhang et al., 2018) | 0.551 | 0.599 | 0.421 |  0.243   |  0.421   |  0.780   | [Modeling Multi-Turn Conversation with Deep Utterance Aggregation. COLING 2018.](https://github.com/cooelf/DeepUtteranceAggregation) |
+| SMN (Wu et al., 2017)    | 0.529 | 0.569 | 0.397 |  0.233   |  0.396   |  0.724   | [Sequential Matching Network: A New Architecture for Multi-Turn Response Selection in Retrieval-Based Chatbots. ACL 2017.](https://github.com/MarkWuNLP/MultiTurnResponseSelection) |
 
 
 ### E-commerce Corpus
 
 | Model                    |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
 | ------------------------ | -------- | -------- | -------- | ---------------- |
-| IMN (Gu et al., 2019)    |  0.621   |  0.797   |  0.964   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/JasonForJoy/IMN) |
-| U2U-IMN (Gu et al., 2019)|  0.616   |  0.806   |  0.966   | [Utterance-to-Utterance Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/JasonForJoy/U2U-IMN) |
-| MSN (Yuan et al, 2019)   |  0.606   |  0.770   |  0.937   | [Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots](https://github.com/chunyuanY/Dialogue) |
-| IOI (Tao et al., 2019)   |  0.563   |  0.768   |  0.950   | [One Time of Interaction May Not Be Enough: Go Deep with an Interaction-over-Interaction Network for Response Selection in Dialogues](https://github.com/chongyangtao/IOI) |
-| DUA (Zhang et al., 2018) |  0.501   |  0.700   |  0.921   | [Modeling Multi-Turn Conversation with Deep Utterance Aggregation](https://github.com/cooelf/DeepUtteranceAggregation) |
-| SMN (Wu et al., 2017)    |  0.453   |  0.654   |  0.886   | [Sequential Matching Network: A New Architecture for Multi-Turn Response Selection in Retrieval-Based Chatbots](https://github.com/MarkWuNLP/MultiTurnResponseSelection) |
+| IMN (Gu et al., 2019)    |  0.621   |  0.797   |  0.964   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2019.](https://github.com/JasonForJoy/IMN) |
+| U2U-IMN (Gu et al., 2019)|  0.616   |  0.806   |  0.966   | [Utterance-to-Utterance Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. TASLP 2019.](https://github.com/JasonForJoy/U2U-IMN) |
+| MSN (Yuan et al, 2019)   |  0.606   |  0.770   |  0.937   | [Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots. EMNLP 2019.](https://github.com/chunyuanY/Dialogue) |
+| IOI (Tao et al., 2019)   |  0.563   |  0.768   |  0.950   | [One Time of Interaction May Not Be Enough: Go Deep with an Interaction-over-Interaction Network for Response Selection in Dialogues. ACL 2019.](https://github.com/chongyangtao/IOI) |
+| DUA (Zhang et al., 2018) |  0.501   |  0.700   |  0.921   | [Modeling Multi-Turn Conversation with Deep Utterance Aggregation. COLING 2018.](https://github.com/cooelf/DeepUtteranceAggregation) |
+| SMN (Wu et al., 2017)    |  0.453   |  0.654   |  0.886   | [Sequential Matching Network: A New Architecture for Multi-Turn Response Selection in Retrieval-Based Chatbots. ACL 2017.](https://github.com/MarkWuNLP/MultiTurnResponseSelection) |
 
 
 
@@ -87,7 +87,6 @@ In addition to the studies mentioned above, there are stil a lot of great studie
 
 - **Dually Interactive Matching Network for Personalized Response Selection in Retrieval-Based Chatbots**. *Jia-Chen Gu, Zhen-Hua Ling, Xiaodan Zhu, Quan Liu*. EMNLP 2019.
 - **Sampling Matters! An Empirical Study of Negative Sampling Strategies for Learning of Matching Models in Retrieval-based Dialogue Systems**. *Jia Li, Chongyang Tao, wei wu, Yansong Feng, Dongyan Zhao, Rui Yan*. EMNLP 2019.
-- **Multi-Turn Response Selection in Retrieval-Based Chatbots with Iterated Attentive Convolution Matching Network**. *Heyuan Wang, Ziyi Wu, Junyu Chen*. CIKM 2019.
 - **Learning a Matching Model with Co-teaching for Multi-turn Response Selection in Retrieval-based Dialogue Systems**. *Jiazhan Feng, Chongyang Tao, Wei Wu, Yansong Feng, Dongyan Zhao, Rui Yan*. ACL 2019.
 - **Training Neural Response Selection for Task-Oriented Dialogue Systems**. *Matthew Henderson, Ivan Vulić, Daniela Gerz, Iñigo Casanueva, Paweł Budzianowski, Sam Coope, Georgios Spithourakis, Tsung-Hsien Wen, Nikola Mrkšić, Pei-Hao Su*. ACL 2019.
 - **DSTC7 Task 1: Noetic End-to-End Response Selection**. *Chulaka Gunasekara, Jonathan K. Kummerfeld, Lazaros Polymenakos, Walter Lasecki*. ACL 2019 Workshop.
