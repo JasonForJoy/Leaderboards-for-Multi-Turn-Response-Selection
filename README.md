@@ -49,6 +49,7 @@ Multi-turn response selection in retrieval-based chatbots is a task which aims t
 
 | Model                        |  R_2@1  |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
 | ---------------------------- | ------- | -------- | -------- | -------- | ---------------- |
+| Cross-encoder (Humeau et al., 2020)| - |  0.865   |  -       |  -       | Poly-encoders: Transformer Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring. ICLR 2020. |
 | IMN (Gu et al., 2019)        |  0.945  |  0.771   |  0.886   |  0.979   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2019.](https://github.com/JasonForJoy/IMN) |
 | U2U-IMN (Gu et al., 2019)    |  0.943  |  0.762   |  0.877   |  0.975   | [Utterance-to-Utterance Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. TASLP 2019.](https://github.com/JasonForJoy/U2U-IMN) |
 | HRDE-LTC (Yoon et al., 2018) |  0.915  |  0.652   |  0.815   |  0.966   | [Learning to Rank Question-Answer Pairs using Hierarchical Recurrent Encoder with Latent Topic Clustering. NAACL 2018.](https://github.com/david-yoon/QA_HRDE_LTC) |
