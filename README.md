@@ -34,9 +34,11 @@ Multi-turn response selection in retrieval-based chatbots is a task which aims t
 
 | Model                    |  R_2@1  |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
 | ------------------------ | ------- | -------- | -------- | -------- | ---------------- |
-| SA-BERT (Gu et al, 2020) |  0.965  |  0.855   |  0.928   |  0.983   | [Speaker-Aware BERT for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2020.](https://github.com/JasonForJoy/SA-BERT) |
-| BERT-VFT (Whang et al, 2019)| -    |  0.855   |  0.928   |  0.985   | [Domain Adaptive Training BERT for Response Selection.](https://arxiv.org/pdf/1908.04812) |
-| RoBERTa-BASE-SS-DA (Lu et al, 2020)| 0.955 | 0.826 | 0.909 | 0.978  | [Improving Contextual Language Models for Response Retrieval in Multi-Turn Conversation. SIGIR 2020.](https://github.com/CSLujunyu/Improving-Contextual-Language-Modelsfor-Response-Retrieval-in-Multi-Turn-Conversation) |
+| BERT-SL (Xu et al., 2020)| 0.975   |  0.884   |  0.946   |  0.990   | [Learning an Effective Context-Response Matching Model with Self-Supervised Tasks for Retrieval-based Dialogues](https://arxiv.org/pdf/2009.06265.pdf) |
+| UMS_BERT+ (Whang et al., 2020) | - |  0.875   |  0.942   |  0.988   | [Do Response Selection Models Really Know What’s Next? Utterance Manipulation Strategies for Multi-turn Response Selection](https://arxiv.org/pdf/2009.04703.pdf) |
+| SA-BERT (Gu et al., 2020) |  0.965 |  0.855   |  0.928   |  0.983   | [Speaker-Aware BERT for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2020.](https://github.com/JasonForJoy/SA-BERT) |
+| BERT-VFT (Whang et al., 2019)| -   |  0.855   |  0.928   |  0.985   | [An Effective Domain Adaptive Post-Training Method for BERT in Response Selection. INTERSPEECH 2020.](https://github.com/taesunwhang/BERT-ResSel) |
+| RoBERTa-BASE-SS-DA (Lu et al., 2020)| 0.955   | 0.826 | 0.909 | 0.978  | [Improving Contextual Language Models for Response Retrieval in Multi-Turn Conversation. SIGIR 2020.](https://github.com/CSLujunyu/Improving-Contextual-Language-Modelsfor-Response-Retrieval-in-Multi-Turn-Conversation) |
 | MSN (Yuan et al, 2019)   | -       |  0.800   |  0.899   |  0.978   | [Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots. EMNLP 2019.](https://github.com/chunyuanY/Dialogue) |
 | IOI (Tao et al., 2019)   |  0.947  |  0.796   |  0.894   |  0.974   | [One Time of Interaction May Not Be Enough: Go Deep with an Interaction-over-Interaction Network for Response Selection in Dialogues. ACL 2019.](https://github.com/chongyangtao/IOI) |
 | IMN (Gu et al., 2019)    |  0.946  |  0.794   |  0.889   |  0.974   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2019.](https://github.com/JasonForJoy/IMN) |
@@ -63,6 +65,7 @@ Multi-turn response selection in retrieval-based chatbots is a task which aims t
 
 | Model                    |  MAP  |  MRR  |  P@1  |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
 | ------------------------ | ----- | ----- | ----- | -------- | -------- | -------- | ---------------- |
+| UMS_BERT+ (Whang et al., 2020) | 0.625 | 0.664 | 0.499 | 0.318 | 0.482 |  0.858   | [Do Response Selection Models Really Know What’s Next? Utterance Manipulation Strategies for Multi-turn Response Selection](https://arxiv.org/pdf/2009.04703.pdf) |
 | SA-BERT (Gu et al, 2020) | 0.619 | 0.659 | 0.496 |  0.313   |  0.481   |  0.847   | [Speaker-Aware BERT for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2020.](https://github.com/JasonForJoy/SA-BERT) |
 | RoBERTa-BASE-SS-DA (Lu et al, 2020)| 0.602 | 0.646 | 0.460 | 0.280 | 0.495 | 0.847| [Improving Contextual Language Models for Response Retrieval in Multi-Turn Conversation. SIGIR 2020.](https://github.com/CSLujunyu/Improving-Contextual-Language-Modelsfor-Response-Retrieval-in-Multi-Turn-Conversation) |
 | MSN (Yuan et al, 2019)   | 0.587 | 0.632 | 0.470 |  0.295   |  0.452   |  0.788   | [Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots. EMNLP 2019.](https://github.com/chunyuanY/Dialogue) |
@@ -80,6 +83,8 @@ Multi-turn response selection in retrieval-based chatbots is a task which aims t
 
 | Model                    |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
 | ------------------------ | -------- | -------- | -------- | ---------------- |
+| BERT-SL (Xu et al., 2020)|  0.776   |  0.919   |  0.991   | [Learning an Effective Context-Response Matching Model with Self-Supervised Tasks for Retrieval-based Dialogues](https://arxiv.org/pdf/2009.06265.pdf) |
+| UMS_BERT+ (Whang et al., 2020) |0.762| 0.905   |  0.986   | [Do Response Selection Models Really Know What’s Next? Utterance Manipulation Strategies for Multi-turn Response Selection](https://arxiv.org/pdf/2009.04703.pdf) |
 | SA-BERT (Gu et al, 2020) |  0.704   |  0.879   |  0.985   | [Speaker-Aware BERT for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2020.](https://github.com/JasonForJoy/SA-BERT) |
 | RoBERTa-BASE-SS-DA (Lu et al, 2020)| 0.627 | 0.835 | 0.980| [Improving Contextual Language Models for Response Retrieval in Multi-Turn Conversation. SIGIR 2020.](https://github.com/CSLujunyu/Improving-Contextual-Language-Modelsfor-Response-Retrieval-in-Multi-Turn-Conversation) |
 | IMN (Gu et al., 2019)    |  0.621   |  0.797   |  0.964   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2019.](https://github.com/JasonForJoy/IMN) |
