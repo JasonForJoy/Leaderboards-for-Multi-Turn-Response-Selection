@@ -54,7 +54,8 @@ Multi-turn response selection in retrieval-based chatbots is a task which aims t
 
 | Model                        |  R_2@1  |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
 | ---------------------------- | ------- | -------- | -------- | -------- | ---------------- |
-| Cross-encoder (Humeau et al., 2020)| - |  0.865   |  -       |  -       | [Poly-encoders: Transformer Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring. ICLR 2020.](https://openreview.net/pdf?id=SkxgnnNFvH) |
+| Cross-encoder (Humeau et al., 2020)| - |  0.865   |  -       |  0.991   | [Poly-encoders: Transformer Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring. ICLR 2020.](https://openreview.net/pdf?id=SkxgnnNFvH) |
+| Thread-bi (Jia et al., 2020) |  -      |  0.838   |  0.924   |  0.985   | [Multi-turn Response Selection using Dialogue Dependency Relations. EMNLP 2020.](https://github.com/JiaQiSJTU/ResponseSelection) |
 | SA-BERT (Gu et al., 2020)    |  0.963  |  0.830   |  0.919   |  0.985   | [Speaker-Aware BERT for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2020.](https://github.com/JasonForJoy/SA-BERT) |
 | IMN (Gu et al., 2019)        |  0.945  |  0.771   |  0.886   |  0.979   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2019.](https://github.com/JasonForJoy/IMN) |
 | U2U-IMN (Gu et al., 2019)    |  0.943  |  0.762   |  0.877   |  0.975   | [Utterance-to-Utterance Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. TASLP 2019.](https://github.com/JasonForJoy/U2U-IMN) |
