@@ -34,13 +34,15 @@ Multi-turn response selection in retrieval-based chatbots is a task which aims t
 
 | Model                    |  R_2@1  |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
 | ------------------------ | ------- | -------- | -------- | -------- | ---------------- |
-| BERT-SL (Xu et al., 2020)| 0.975   |  0.884   |  0.946   |  0.990   | [Learning an Effective Context-Response Matching Model with Self-Supervised Tasks for Retrieval-based Dialogues.](https://arxiv.org/pdf/2009.06265.pdf) |
-| UMS_BERT+ (Whang et al., 2020) | - |  0.875   |  0.942   |  0.988   | [Do Response Selection Models Really Know What’s Next? Utterance Manipulation Strategies for Multi-turn Response Selection.](https://arxiv.org/pdf/2009.04703.pdf) |
+| BERT-SL (Xu et al., 2020)| 0.975   |  0.884   |  0.946   |  0.990   | [Learning an Effective Context-Response Matching Model with Self-Supervised Tasks for Retrieval-based Dialogues. AAAI 2021.](https://arxiv.org/pdf/2009.06265.pdf) |
+| UMS_BERT+ (Whang et al., 2020) | - |  0.875   |  0.942   |  0.988   | [Do Response Selection Models Really Know What’s Next? Utterance Manipulation Strategies for Multi-turn Response Selection. AAAI 2021.](https://github.com/taesunwhang/UMS-ResSel) |
+| DCM (Li et al., 2020)    |    -    |  0.868   |  0.936   |  0.987   | [Deep context modeling for multi-turn response selection in dialogue systems. Information Processing & Management 2020.](https://github.com/LeaLiLu/DeepContextModeling) |
 | SA-BERT (Gu et al., 2020) |  0.965 |  0.855   |  0.928   |  0.983   | [Speaker-Aware BERT for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2020.](https://github.com/JasonForJoy/SA-BERT) |
 | BERT-VFT (Whang et al., 2019)| -   |  0.855   |  0.928   |  0.985   | [An Effective Domain Adaptive Post-Training Method for BERT in Response Selection. INTERSPEECH 2020.](https://github.com/taesunwhang/BERT-ResSel) |
 | RoBERTa-BASE-SS-DA (Lu et al., 2020)| 0.955| 0.826| 0.909|  0.978   | [Improving Contextual Language Models for Response Retrieval in Multi-Turn Conversation. SIGIR 2020.](https://github.com/CSLujunyu/Improving-Contextual-Language-Modelsfor-Response-Retrieval-in-Multi-Turn-Conversation) |
+| TADAM (Xu et al., 2020)  |    -    |  0.821   |  0.906   |  0.978   | [Topic-Aware Multi-turn Dialogue Modeling. AAAI 2021.](https://github.com/xyease/TADAM) |
 | G-MSN (Lin et al., 2020) |  0.958  |  0.812   |  0.911   |  0.987   | [The World is Not Binary: Learning to Rank with Grayscale Data for Dialogue Response Selection. EMNLP 2020.](https://arxiv.org/pdf/2004.02421.pdf) |
-| MSN (Yuan et al., 2019)  | -       |  0.800   |  0.899   |  0.978   | [Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots. EMNLP 2019.](https://github.com/chunyuanY/Dialogue) |
+| MSN (Yuan et al., 2019)  |    -    |  0.800   |  0.899   |  0.978   | [Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots. EMNLP 2019.](https://github.com/chunyuanY/Dialogue) |
 | IOI (Tao et al., 2019)   |  0.947  |  0.796   |  0.894   |  0.974   | [One Time of Interaction May Not Be Enough: Go Deep with an Interaction-over-Interaction Network for Response Selection in Dialogues. ACL 2019.](https://github.com/chongyangtao/IOI) |
 | IMN (Gu et al., 2019)    |  0.946  |  0.794   |  0.889   |  0.974   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2019.](https://github.com/JasonForJoy/IMN) |
 | U2U-IMN (Gu et al., 2019)|  0.945  |  0.790   |  0.886   |  0.973   | [Utterance-to-Utterance Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. TASLP 2019.](https://github.com/JasonForJoy/U2U-IMN) |
@@ -67,10 +69,12 @@ Multi-turn response selection in retrieval-based chatbots is a task which aims t
 
 | Model                    |  MAP  |  MRR  |  P@1  |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
 | ------------------------ | ----- | ----- | ----- | -------- | -------- | -------- | ---------------- |
-| UMS_BERT+ (Whang et al., 2020)| 0.625| 0.664| 0.499| 0.318  |  0.482   |  0.858   | [Do Response Selection Models Really Know What’s Next? Utterance Manipulation Strategies for Multi-turn Response Selection.](https://arxiv.org/pdf/2009.04703.pdf) |
+| UMS_BERT+ (Whang et al., 2020)| 0.625| 0.664| 0.499| 0.318  |  0.482   |  0.858   | [Do Response Selection Models Really Know What’s Next? Utterance Manipulation Strategies for Multi-turn Response Selection. AAAI 2021.](https://github.com/taesunwhang/UMS-ResSel) |
 | SA-BERT (Gu et al., 2020)| 0.619 | 0.659 | 0.496 |  0.313   |  0.481   |  0.847   | [Speaker-Aware BERT for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2020.](https://github.com/JasonForJoy/SA-BERT) |
+| DCM (Li et al., 2020)    | 0.611 | 0.649 |   -   |  0.294   |  0.498   |  0.842   | [Deep context modeling for multi-turn response selection in dialogue systems. Information Processing & Management 2020.](https://github.com/LeaLiLu/DeepContextModeling) |
 | RoBERTa-BASE-SS-DA (Lu et al., 2020)| 0.602| 0.646| 0.460| 0.280 | 0.495 | 0.847  | [Improving Contextual Language Models for Response Retrieval in Multi-Turn Conversation. SIGIR 2020.](https://github.com/CSLujunyu/Improving-Contextual-Language-Modelsfor-Response-Retrieval-in-Multi-Turn-Conversation) |
 | G-MSN (Lin et al., 2020) | 0.599 | 0.645 | 0.476 |  0.308   |  0.468   |  0.826   | [The World is Not Binary: Learning to Rank with Grayscale Data for Dialogue Response Selection. EMNLP 2020.](https://arxiv.org/pdf/2004.02421.pdf) |
+| TADAM (Xu et al., 2020)  | 0.594 | 0.633 | 0.453 |  0.282   |  0.472   |  0.828   | [Topic-Aware Multi-turn Dialogue Modeling. AAAI 2021.](https://github.com/xyease/TADAM) |
 | MSN (Yuan et al., 2019)  | 0.587 | 0.632 | 0.470 |  0.295   |  0.452   |  0.788   | [Multi-hop Selector Network for Multi-turn Response Selection in Retrieval-based Chatbots. EMNLP 2019.](https://github.com/chunyuanY/Dialogue) |
 | IOI (Tao et al., 2019)   | 0.573 | 0.621 | 0.444 |  0.269   |  0.451   |  0.786   | [One Time of Interaction May Not Be Enough: Go Deep with an Interaction-over-Interaction Network for Response Selection in Dialogues. ACL 2019.](https://github.com/chongyangtao/IOI) |
 | IACMN (Wang et al., 2019)| 0.571 | 0.621 | 0.448 |  0.269   |  0.453   |  0.783   | [Multi-Turn Response Selection in Retrieval-Based Chatbots with Iterated Attentive Convolution Matching Network. CIKM 2019.](https://github.com/heyuanw/IACMN) |
@@ -86,9 +90,11 @@ Multi-turn response selection in retrieval-based chatbots is a task which aims t
 
 | Model                    |  R_10@1  |  R_10@2  |  R_10@5  |  Paper and Code  |
 | ------------------------ | -------- | -------- | -------- | ---------------- |
-| BERT-SL (Xu et al., 2020)|  0.776   |  0.919   |  0.991   | [Learning an Effective Context-Response Matching Model with Self-Supervised Tasks for Retrieval-based Dialogues.](https://arxiv.org/pdf/2009.06265.pdf) |
-| UMS_BERT+ (Whang et al., 2020) |0.762| 0.905   |  0.986   | [Do Response Selection Models Really Know What’s Next? Utterance Manipulation Strategies for Multi-turn Response Selection.](https://arxiv.org/pdf/2009.04703.pdf) |
-| SA-BERT (Gu et al., 2020) |  0.704  |  0.879   |  0.985   | [Speaker-Aware BERT for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2020.](https://github.com/JasonForJoy/SA-BERT) |
+| BERT-SL (Xu et al., 2020)|  0.776   |  0.919   |  0.991   | [Learning an Effective Context-Response Matching Model with Self-Supervised Tasks for Retrieval-based Dialogues. AAAI 2021.](https://arxiv.org/pdf/2009.06265.pdf) |
+| UMS_BERT+ (Whang et al., 2020) |0.762| 0.905   |  0.986   | [Do Response Selection Models Really Know What’s Next? Utterance Manipulation Strategies for Multi-turn Response Selection. AAAI 2021.](https://github.com/taesunwhang/UMS-ResSel) |
+| SA-BERT (Gu et al., 2020)|  0.704  |  0.879   |  0.985   | [Speaker-Aware BERT for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2020.](https://github.com/JasonForJoy/SA-BERT) |
+| DCM (Li et al., 2020)    |  0.685  |  0.864   |  0.982   | [Deep context modeling for multi-turn response selection in dialogue systems. Information Processing & Management 2020.](https://github.com/LeaLiLu/DeepContextModeling) |
+| TADAM (Xu et al., 2020)  |  0.660  |  0.834   |  0.975   | [Topic-Aware Multi-turn Dialogue Modeling. AAAI 2021.](https://github.com/xyease/TADAM) |
 | RoBERTa-BASE-SS-DA (Lu et al., 2020)| 0.627| 0.835| 0.980 | [Improving Contextual Language Models for Response Retrieval in Multi-Turn Conversation. SIGIR 2020.](https://github.com/CSLujunyu/Improving-Contextual-Language-Modelsfor-Response-Retrieval-in-Multi-Turn-Conversation) |
 | IMN (Gu et al., 2019)    |  0.621   |  0.797   |  0.964   | [Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. CIKM 2019.](https://github.com/JasonForJoy/IMN) |
 | U2U-IMN (Gu et al., 2019)|  0.616   |  0.806   |  0.966   | [Utterance-to-Utterance Interactive Matching Network for Multi-Turn Response Selection in Retrieval-Based Chatbots. TASLP 2019.](https://github.com/JasonForJoy/U2U-IMN) |
